@@ -1340,9 +1340,9 @@ export default function ProfilePage() {
               <ArrowLeft className="w-4 h-4" />
             </motion.button>
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-lg flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.12)' }}>
+              {/* <div className="w-6 h-6 rounded-lg flex items-center justify-center" style={{ background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.12)' }}>
                 <span className="text-white/80 font-bold text-xs">F</span>
-              </div>
+              </div> */}
               <span className="text-sm font-semibold text-white/80">My Profile</span>
             </div>
           </div>
