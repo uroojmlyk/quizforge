@@ -20,7 +20,7 @@ interface EmailOptions {
 export async function sendEmail({ to, subject, html }: EmailOptions) {
   try {
     const info = await transporter.sendMail({
-      from: `"QuizMaster" <${process.env.SMTP_USER}>`,
+      from: `"QuizForge" <${process.env.SMTP_USER}>`,
       to,
       subject,
       html,

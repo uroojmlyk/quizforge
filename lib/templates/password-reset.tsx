@@ -126,7 +126,7 @@ export const getPasswordResetHTML = (name: string, resetLink: string) => {
           <h2 class="greeting" style="color: #111827; font-size: 20px; font-weight: 600; margin: 0 0 16px 0;">Hello ${name}!</h2>
           
           <p class="text" style="color: #4b5563; font-size: 16px; line-height: 24px; margin: 16px 0;">
-            We received a request to reset your password for your QuizMaster account.
+            We received a request to reset your password for your QuizForge account.
           </p>
           
           <!-- Reset Button -->
