@@ -61,19 +61,19 @@ const breadcrumbSchema = (title: string, slug: string) => ({
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://quizforge.com"
+      "item": "https://quizplatform-7dh5.vercel.app"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://quizforge.com/blog"
+      "item": "https://quizplatform-7dh5.vercel.app"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": title,
-      "item": `https://quizforge.com/blog/${slug}`
+      "item": `https://quizplatform-7dh5.vercel.ap/blog/${slug}`
     }
   ]
 });
