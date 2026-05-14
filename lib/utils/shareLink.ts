@@ -24,6 +24,6 @@ export const validateShareLink = (link: any): { valid: boolean; error?: string }
 };
 
 export const formatShareUrl = (publicId: string): string => {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://quizplatform-7dh5.vercel.app';
   return `${baseUrl}/quiz/shared/${publicId}`;
 };

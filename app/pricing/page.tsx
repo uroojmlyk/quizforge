@@ -259,7 +259,7 @@ export const metadata: Metadata = {
     "quiz platform for teachers"
   ],
   alternates: {
-    canonical: "https://quizforge.com/pricing",
+    canonical: "https://quizplatform-7dh5.vercel.app/pricing",
   },
   robots: {
     index: true,
@@ -268,7 +268,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI Quiz Maker Pricing Plans for Teachers & Schools | QuizForge",
     description: "Compare free and paid plans of QuizForge. Start creating quizzes with AI today. Free plan available with unlimited quizzes.",
-    url: "https://quizforge.com/pricing",
+    url: "https://quizplatform-7dh5.vercel.app/pricing",
     type: "website",
     siteName: "QuizForge",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "QuizForge Pricing Plans" }],

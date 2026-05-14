@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: post.description,
     // ✅ CANONICAL URL ADDED
     alternates: {
-      canonical: `https://quizforge.com/blog/${slug}`,
+      canonical: `https://quizplatform-7dh5.vercel.app/blog/${slug}`,
     },
     openGraph: {
       title: post.title,
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       publishedTime: post.date,
       authors: [post.author],
       images: post.image ? [{ url: post.image }] : [],
-      url: `https://quizforge.com/blog/${slug}`,
+      url: `https://quizplatform-7dh5.vercel.app/blog/${slug}`,
     },
     twitter: {
       card: 'summary_large_image',
@@ -152,11 +152,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     "publisher": { 
       "@type": "Organization", 
       "name": "QuizForge", 
-      "logo": { "@type": "ImageObject", "url": "https://quizforge.com/logo.png" } 
+      "logo": { "@type": "ImageObject", "url": "https://quizplatform-7dh5.vercel.app/logo.png" } 
     },
     "mainEntityOfPage": { 
       "@type": "WebPage", 
-      "@id": `https://quizforge.com/blog/${slug}` 
+      "@id": `https://quizplatform-7dh5.vercel.app/blog/${slug}` 
     },
     ...(post.image && { "image": post.image }),
   };
@@ -220,7 +220,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   </div>
                   <ShareButtons 
                     title={post.title} 
-                    url={`https://quizforge.com/blog/${slug}`} 
+                    url={`https://quizplatform-7dh5.vercel.app/blog/${slug}`} 
                   />
                 </div>
               </div>
