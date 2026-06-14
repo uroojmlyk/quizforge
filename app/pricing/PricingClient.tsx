@@ -90,7 +90,7 @@ const plans = [
 ];
 
 const faqs = [
-  { q: 'Do participants need to create an account?', a: 'No. Participants just click the link and take the quiz — no sign-up, no app download needed.' },
+  { q: 'Do participants need to create an account?', a: 'No. Participants just click the link and take the quiz no sign-up, no app download needed.' },
   { q: 'Can I try Pro for free?', a: 'Yes! Pro comes with a 14-day free trial. No credit card required to start.' },
   { q: 'What happens to my quizzes if I downgrade?', a: 'Your quizzes and results are preserved. Only your ability to create new ones beyond the free limit is paused.' },
   { q: 'Is my data safe?', a: 'Yes. QuizForge uses bank-level encryption and never sells your data. You own everything you create.' },
@@ -507,7 +507,7 @@ const handleSubscribe = async (planName: string, billingPeriod: 'monthly' | 'yea
             Pricing for Every Need
           </h2>
           <p className="text-white/50 max-w-2xl mx-auto">
-            Whether you're a teacher, school administrator, or corporate trainer — we have a plan for you.
+            Whether you're a teacher, school administrator, or corporate trainer we have a plan for you.
           </p>
         </div>
 

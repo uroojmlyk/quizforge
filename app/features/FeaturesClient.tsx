@@ -51,7 +51,7 @@ const coreFeatures = [
   {
     icon: Brain,
     title: 'AI Quiz Generator',
-    desc: 'Generate complete assessments from any topic in seconds. Multiple-choice questions, distractors, and explanations — all auto-generated.',
+    desc: 'Generate complete assessments from any topic in seconds. Multiple choice questions, distractors, and explanations all auto-generated.',
     keyword: 'AI powered assessment tool',
   },
   {
@@ -105,7 +105,7 @@ const faqItems = [
   { q: 'Can students take quizzes on mobile devices?', a: 'Yes. QuizForge is fully responsive and works on smartphones, tablets, and computers. No app installation needed.' },
   { q: 'What analytics does the online assessment tool provide?', a: 'Real-time insights including average scores, question difficulty, individual student performance, class trends, and exportable reports.' },
   { q: 'Can I use QuizForge for corporate training assessments?', a: 'Absolutely. Many companies use QuizForge for employee onboarding, compliance training, skill assessments, and team quizzes.' },
-  { q: 'What makes QuizForge different from Google Forms?', a: 'Unlike Google Forms, QuizForge offers AI question generation, auto grading, detailed analytics, leaderboards, and anti-cheat features — all in one platform.' },
+  { q: 'What makes QuizForge different from Google Forms?', a: 'Unlike Google Forms, QuizForge offers AI question generation, auto grading, detailed analytics, leaderboards, and anti-cheat features  all in one platform.' },
 ];
 
 // ✅ Improved Sticky CTA with dynamic trigger point
@@ -264,7 +264,7 @@ export default function FeaturesClient() {
             <ul className="space-y-2 text-white/50 text-sm">
               <li>• Manual quiz creation takes hours</li>
               <li>• Google Forms lacks detailed analytics</li>
-              <li>• Grading papers is time-consuming</li>
+              <li>• Grading papers is time consuming</li>
               <li>• No insights into student performance</li>
             </ul>
           </div>
@@ -296,7 +296,7 @@ export default function FeaturesClient() {
             Core Features of QuizForge
           </h2>
           <p className="text-white/50 max-w-2xl mx-auto">
-            Everything you need to create, share, and analyze quizzes — all in one platform.
+            Everything you need to create, share, and analyze quizzes all in one platform.
           </p>
         </div>
 
@@ -517,7 +517,7 @@ export default function FeaturesClient() {
           <h2 className="text-2xl md:text-3xl font-bold text-white font-['DM_Serif_Display'] mb-3">
             Start Creating Quizzes in Minutes
           </h2>
-          <p className="text-white/50 mb-6">Join thousands of teachers saving time with QuizForge. Free forever — no credit card needed.</p>
+          <p className="text-white/50 mb-6">Join thousands of teachers saving time with QuizForge. Free forever no credit card needed.</p>
           <Link href="/signup"
             className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-xl text-sm font-semibold transition-all hover:opacity-90"
             style={{ background: '#fff', color: '#080810' }}>

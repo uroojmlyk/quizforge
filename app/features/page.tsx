@@ -204,12 +204,12 @@ import type { Metadata } from "next";
 import FeaturesClient from "./FeaturesClient";
 // ✅ Type-safe metadata with full optimization
 export const metadata: Metadata = {
-  title: "AI Quiz Maker for Teachers | QuizForge - Create Online Quizzes with AI",
+  title: "AI Quiz Maker for Teachers | QuizForge Create Online Quizzes with AI",
   description: "Create online quizzes with AI, auto grading, and real-time analytics. The best quiz platform for teachers, schools, and corporate training. Free plan available.",
   keywords: "AI quiz maker, online quiz maker, quiz platform for teachers, auto grading quiz system, create quizzes online, AI quiz generator",
   // ✅ Canonical URL added
   alternates: {
-    canonical: "https://quizforge.com/features",
+    canonical: "https://quizforge-web.vercel.app/features",
   },
   // ✅ Robots directive added
   robots: {
@@ -220,7 +220,7 @@ export const metadata: Metadata = {
     title: "AI Quiz Maker for Teachers | QuizForge",
     description: "Create online quizzes with AI, auto grading, and real-time analytics. Trusted by 10,000+ educators.",
     type: "website",
-    url: "https://quizforge.com/features",
+    url: "https://quizforge-web.vercel.app/features",
     siteName: "QuizForge",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "QuizForge - AI Quiz Maker for Teachers" }],
   },
@@ -290,7 +290,7 @@ const faqSchema = {
       "name": "What makes QuizForge different from Google Forms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Unlike Google Forms, QuizForge offers AI question generation, auto grading, detailed analytics, leaderboards, and anti-cheat features — all in one platform."
+        "text": "Unlike Google Forms, QuizForge offers AI question generation, auto grading, detailed analytics, leaderboards, and anti-cheat features all in one platform."
       }
     }
   ]
